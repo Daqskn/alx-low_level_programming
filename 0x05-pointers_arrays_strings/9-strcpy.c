@@ -1,22 +1,21 @@
 #include "main.h"
 
 /**
- * _strcpy - copies src to dest
+ * _strcpy - copies  src to  dest.
  * @dest:char
  * @src:char
- * return:char
+ * Return:char
  */
-char *_strcpy(char * dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
-	int i;
+int i;
 
-	i = 0;
-
-	while(src[i])
+i = 0;
+	while (src[i])
 	{
 		dest[i] = src[i];
 		i++;
 	}
-	dest[i] = '\0';
-	return(dest);
+dest[i] = '\0';
+return (dest);
 }
